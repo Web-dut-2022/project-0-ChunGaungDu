@@ -1,0 +1,39 @@
+
+.form{
+    clear: both;
+    margin: 20px auto;
+    width: 45%;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+.pic{
+    margin-top: 160px;
+    text-align: center;
+}
+
+.input{
+    text-align: center;
+    padding: 12px 16px;
+    height: 16px;
+    width: 512px;
+    border-radius: 10px 0 0 10px;
+    border: solid;
+    border-color: #F0F0F0;
+    float: left;
+    vertical-align: bottom;    
+}
+
+.go{
+    height: 44px;
+    width: 108px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: left;
+    border-radius: 0 10px 10px 0;
+    background-color:  -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: pointer;
+}

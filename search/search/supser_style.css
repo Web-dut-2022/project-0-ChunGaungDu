@@ -1,0 +1,55 @@
+.form {
+    margin: 0 auto;
+    width: 45%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.q1,.q2,.q3,.q4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #999;
+    border: solid;
+    border-color: blue;
+    padding: 9px 12px;
+}
+
+.q1,.q3{
+    border-radius: 15px 0 0 15px;
+}
+
+.q2,.q4{
+    border-radius: 0 15px 15px 0;
+}
+
+.pic{
+    margin: 70px auto auto 31%;
+}
+
+.go{
+    background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    height: 44px;
+    width: 108px;
+    border: none;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    background-size: 200%;
+    transition: 0.6s;
+    outline: none;
+}
+
+.go:hover{
+    background-image: linear-gradient(135deg, #DD6D20 10%, #F7F709 100%);
+    color: black;
+    background-position: right;
+}
+
+.line1,.line2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear: both;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="main_style.css">
+
+        <script>
+            function openimgser(){
+                window.location.assign("imgser.html")
+            }
+            function opensupser(){
+                window.location.assign("supser.html")
+            }
+        </script>
+    </head>
+    <body>
+        <div class="mainpage">
+            <img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="No Internet Access" height="100%" width="auto" style="margin-left: 0;">
+        </div>
+        <div class="form">
+            <form action="https://www.baidu.com/s?">
+                    <input type="text" name="wd" class="input">    
+
+                    <input type="submit" value="Go" class="go">     
+            </form>
+        </div>
+        <div class="skipline">
+            <input type="button" value="图片搜索" onclick="openimgser()" class="button1">
+
+            <input type="button" value="高级搜索" onclick="opensupser()" class="button2">
+
+        </div>
+    </body>
+</html>
